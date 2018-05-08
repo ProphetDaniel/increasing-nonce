@@ -1,0 +1,8 @@
+<template name="nonceList">
+    <h3>Here are some nonces:</h3>
+    <UL>
+        {{#each nonces}}
+            <LI>timestamp: <i>{{timestamp}}</i> nonce: {{nonce}}</LI>
+        {{/each}}
+    </UL>
+</template>

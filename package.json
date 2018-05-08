@@ -1,0 +1,16 @@
+{
+  "name": "ever-increasing-nonce",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --driver-package cultofcoders:mocha"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "meteor-node-stubs": "^0.3.2"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0"
+  }
+}
