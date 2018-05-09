@@ -1,5 +1,5 @@
 {
-  "name": "ever-increasing-nonce",
+  "name": "increasing-nonce",
   "private": true,
   "scripts": {
     "start": "meteor run",
